@@ -1,0 +1,6 @@
+#accordian-div{
+    display: none
+}
+#accordian-div.active{
+    display: block;
+}

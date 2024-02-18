@@ -1,0 +1,57 @@
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  input {
+    border: 1px solid green;
+    border-radius: 3px;
+    width: 500px;
+  }
+  button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: limegreen;
+  }
+}
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-header {
+  background-color: #f2f2f2;
+}
+
+.table-cell {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.even-row {
+  background-color: #f9f9f9;
+}
+
+.odd-row {
+  background-color: #ffffff;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  &.edit {
+    background-color: blue;
+    margin-right: 10px;
+    padding: 5px 20px;
+  }
+}
+#on-load-heading{
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+  background-color: bisque;
+}

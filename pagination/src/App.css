@@ -1,0 +1,25 @@
+#root {
+  margin: 0 auto;
+}
+
+#loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+#page-span{
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 0.3em 0.6em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 2px;
+  &.active{
+    background-color: chocolate;
+  }
+}

@@ -1,0 +1,32 @@
+#root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#progressBar-div {
+  width: 500px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button{
+  margin-top: 20px;
+  
+}
+
+.progress-fill{
+  background-color: brown;
+  height: 100%;
+  &.filled{
+    background-color: green;
+  }
+}

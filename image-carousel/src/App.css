@@ -1,0 +1,35 @@
+#root {
+  margin: 0 auto;
+
+  #carousel-container {
+    overflow-x: hidden;
+    width: 200px;
+    text-align: center;
+
+    #image-container {
+      display: flex;
+      margin-bottom: 10px;
+      transition: 0.5s ease-in-out;
+    }
+
+    button {
+      background-color: brown;
+      margin-right: 10px;
+
+      &:disabled {
+        background-color: #808080;
+        color: #a0a0a0;
+        cursor: not-allowed;
+      }
+    }
+
+    #next-button {
+      margin-right: 0;
+    }
+
+    img {
+      width: 200px;
+      height: auto;
+    }
+  }
+}
